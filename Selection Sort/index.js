@@ -1,5 +1,7 @@
 // Time complexity Big O(n^2)
 // make max 1 swap operation in outer loop on each iteration
+// similar to bubble sort, but instead of first placing
+// large values into sorted position, it places small values into sorted position
 function SelectionSort(arr) {
     const swap = (arr, index1, index2) => {
         let temp = arr[index1];
