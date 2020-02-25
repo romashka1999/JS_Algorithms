@@ -1,4 +1,5 @@
 // Time complexity Big O(n^2)
+// make many swap operations
 // a sorting algorithm ,where the largest values bubble up to the top!
 function BubbleSort(arr) {
     let noSwaps; // add nosWaps variable to ptimization
