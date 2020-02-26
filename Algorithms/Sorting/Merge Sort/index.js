@@ -12,7 +12,8 @@ function mergeSortedTwoArrays(arr1, arr2) {
     let pointer2 = 0;
     let currentPointer = 0;
     while(currentPointer < (arr1.length + arr2.length)) {
-        let isArr1Depleted = pointer1 >= arr1.length;
+        // if pointer is out of bound
+        let isArr1Depleted = pointer1 >= arr1.length; 
         let isArr2Depleted = pointer2 >= arr2.length;
         if(!isArr1Depleted && (isArr2Depleted || (arr1[pointer1] < arr2[pointer2]))) {
             sortedArray[currentPointer] = arr1[pointer1];
