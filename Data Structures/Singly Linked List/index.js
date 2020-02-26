@@ -6,6 +6,9 @@
 
 // class Node stores piece of data --value
 // and reference to next node --next
+
+// Time Complexity:
+// Insertion - O(1) or O(n), Removal - O(1) or O(n), Searching - O(n), access O(n)
 class Node {
     constructor(value) {
         this.value = value;
