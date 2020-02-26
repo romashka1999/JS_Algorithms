@@ -1,4 +1,8 @@
-// Time complexity Big O(n^2)
+// Time complexity(BEST) Big O(n)
+// Time complexity(AVARAGE) Big O(n^2)
+// Time complexity(WORST) Big O(n^2)
+// Space conplexity O(1)
+
 // builds up the sort by gradually creating a larger
 // left half which is always sorted
 function InsertionSort(arr) {

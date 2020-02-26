@@ -1,4 +1,8 @@
-// Time complexity Big O(n^2)
+// Time complexity(BEST) Big O(n)
+// Time complexity(AVARAGE) Big O(n^2)
+// Time complexity(WORST) Big O(n^2)
+// Space conplexity O(1)
+
 // make many swap operations
 // a sorting algorithm ,where the largest values bubble up to the top!
 function BubbleSort(arr) {

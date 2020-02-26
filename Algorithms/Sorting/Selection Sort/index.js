@@ -1,4 +1,8 @@
-// Time complexity Big O(n^2)
+// Time complexity(BEST) Big O(n^2)
+// Time complexity(AVARAGE) Big O(n^2)
+// Time complexity(WORST) Big O(n^2)
+// Space conplexity O(1)
+
 // make max 1 swap operation in outer loop on each iteration
 // similar to bubble sort, but instead of first placing
 // large values into sorted position, it places small values into sorted position
