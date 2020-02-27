@@ -1,4 +1,4 @@
-
+// Time Complexity Big O(n)
 function makeKMPTable(pattern) {
     let table = [0];
     let leftIndex = 0; // start position
