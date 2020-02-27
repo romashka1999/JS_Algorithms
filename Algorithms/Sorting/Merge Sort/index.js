@@ -35,6 +35,7 @@ function MergeSort(arr) {
     let middle = Math.floor(arr.length/2);
     let leftArray = MergeSort(arr.slice(0, middle));
     let rightArray = MergeSort(arr.slice(middle));
+    console.log(object);
     return mergeSortedTwoArrays(leftArray, rightArray);
 }
 
