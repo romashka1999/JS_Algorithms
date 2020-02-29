@@ -28,7 +28,7 @@ function RadixSort(numbersArr) {
     let negativeIntegerExists = false;
     let maxDigitCount = getMaxDigits(numbersArr);
     for(let i=0; i<maxDigitCount; i++) {
-        let digitBuckets = Array.from({length: 10}, () => []); // tu create Array wchich consists 10 arrays
+        let digitBuckets = Array.from({length: 10}, () => []); // to create Array wchich consists 10 arrays
         for(let j=0; j < numbersArr.length; j++) {
             if(numbersArr[j] < 0) {
                 negativeIntegerExists = true;
