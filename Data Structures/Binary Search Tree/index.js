@@ -101,7 +101,7 @@ class BinarySearchTree {
         }
     }
 
-    // Depth full search
+    // Depth first search
     DFS_PreOrder() {
         let data = []; // DFS result
         function traverse(node) {
@@ -117,7 +117,7 @@ class BinarySearchTree {
         return data;
     }
 
-    // Depth full search
+    // Depth first search
     DFS_PostOrder() {
         let data = []; // DFS result
         function traverse(node) {
@@ -133,7 +133,7 @@ class BinarySearchTree {
         return data;
     }
 
-    // Depth full search
+    // Depth first search
     DFS_InOrder() {
         let data = []; // DFS result
         function traverse(node) {
